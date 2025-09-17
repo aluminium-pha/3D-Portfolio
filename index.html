@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9mr0e9PXDYzitYete",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <canvas id="three-canvas"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Expertise</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-subtitle">Creative Professional</div>
+                <h1 class="hero-title">Crafting Digital Realities</h1>
+                <p class="hero-description">
+                    I specialize in creating interactive 3D applications, AR/VR experiences, and immersive environments that blend cutting-edge technology with creative storytelling.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="fade-in">
+            <div class="section-header">
+                <div class="section-subtitle">About Me</div>
+                <h2 class="section-title">Where Creativity Meets 3D & AR/VR Innovation</h2>
+                <p class="section-description">
+                    With years of experience in digital craftsmanship, I bring ideas to life through 
+                    meticulous attention to detail and innovative environments.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        My journey in 3D design and immersive development began with a passion for building experiences that go beyond the screen.
+                        As a 3D Developer and AR/VR Creator, I specialize in crafting interactive environments that blend storytelling, technology, and design.
+                        From virtual worlds to augmented interactions, my work transforms ideas into engaging realities that inspire and connect with people.
+                    </p>
+                    <p>
+                        I believe technology should not just be functional—it should be an experience.
+                            With expertise in 3D development, augmented reality, and virtual reality, I create digital spaces where imagination comes alive.
+                        My approach combines technical precision with artistic creativity to design immersive solutions that captivate audiences and push the boundaries of possibility.
+                    </p>
+                    <p>
+                        My path in digital creation is fueled by curiosity and innovation.
+                        I specialize in building 3D applications and AR/VR experiences that merge cutting-edge technology with human interaction.
+                        Whether it’s developing immersive simulations, interactive visualizations, or virtual environments, I aim to craft digital realities that engage, inspire, and make an impact.
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="about-avatar">✨</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="fade-in">
+            <div class="section-header">
+                <div class="section-subtitle">Expertise</div>
+                <h2 class="section-title">Core Competencies</h2>
+                <p class="section-description">
+                    A comprehensive skill set refined through dedicated practice 
+                    and continuous learning in the ever-evolving digital landscape.
+                </p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-title">Creative Design</h3>
+                    <p class="skill-description">
+                        User-centered design thinking, visual aesthetics, and brand identity 
+                        development with a focus on creating memorable experiences.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3 class="skill-title">Frontend Development</h3>
+                    <p class="skill-description">
+                        Modern web technologies, responsive design, and performance optimization 
+                        to create fast and engaging user interfaces.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3 class="skill-title">Interactive Media</h3>
+                    <p class="skill-description">
+                        3D graphics, animations, and immersive experiences using cutting-edge 
+                        technologies like Unreal Engine, Unity.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💎</div>
+                    <h3 class="skill-title">Strategic Thinking</h3>
+                    <p class="skill-description">
+                        Problem-solving, project management, and strategic planning to ensure 
+                        every project delivers maximum value and impact.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in">
+            <div class="section-header">
+                <div class="section-subtitle">Portfolio</div>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-description">
+                    A curated selection of projects that showcase the breadth and depth 
+                    of my creative and technical capabilities.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-project="luxury-brand">
+                    <div class="project-image-container">
+                        <img src="Images\Car.png" alt="Luxury Brand Platform" class="project-image">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Porsche Car render</h3>
+                            <div class="project-tags">
+                                <span class="tag">Blender</span>                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="art-installation">
+                    <div class="project-image-container">
+                        <img src="Images\Cyber city 2.png" alt="Interactive Art Installation" class="project-image">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Futuristic City</h3>
+                            <div class="project-tags">
+                                <span class="tag">Blender</span>
+                                <span class="tag">Photoshop</span>                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="agency-site">
+                    <div class="project-image-container">
+                        <img src="Images\Environment.png" alt="Award-Winning Agency Site" class="project-image">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Environment for Advertisement</h3>
+                            <div class="project-tags">
+                                <span class="tag">Blender</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="mobile-app">
+                    <div class="project-image-container">
+                        <img src="Images\fantasy.png" alt="Mobile App Design" class="project-image">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Fantasy concept art</h3>
+                            <div class="project-tags">
+                                <span class="tag">Unreal Engine</span>
+                                <span class="tag">Blender</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="ecommerce">
+                    <div class="project-image-container">
+                        <img src="Images\render.png" alt="E-commerce Platform" class="project-image">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Realistic render</h3>
+                            <div class="project-tags">
+                                <span class="tag">Unreal Engine</span>
+                                <span class="tag">Blender</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="dashboard">
+                    <div class="project-image-container">
+                        <img src="Images\Showcase.png" alt="Analytics Dashboard" class="project-image">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Virtual showroom for BMW</h3>
+                            <div class="project-tags">
+                                <span class="tag">Unreal engine</span>
+                                <span class="tag">Blender</span>
+                                <span class="tag">Xcode</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Modal -->
+        <div id="imageModal" class="image-modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img id="modalImage" src="" alt="">
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <div id="modalTags"></div>
+                </div>
+            </div>
+        </div>
+
+        <section id="contact" class="fade-in">
+            <div class="section-header">
+                <div class="section-subtitle">Contact</div>
+                <h2 class="section-title">Let's Create Together</h2>
+                <p class="section-description">
+                    Ready to bring your vision to life? I'm always excited to discuss 
+                    new opportunities and collaborative ventures.
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <div>adityas112004@gmail.com</div>
+                            <div style="color: var(--text-muted); font-size: 0.9rem;">Email me directly</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <div>9500124169</div>
+                            <div style="color: var(--text-muted); font-size: 0.9rem;">Call for urgent matters</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
